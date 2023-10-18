@@ -12,7 +12,6 @@ const userSchema = new mongoose.Schema({
     },
     mobileNumber: {
         type: Number,
-        unique: true,
         default: null
     },
     NotificationChannel: {
